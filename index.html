@@ -1,63 +1,93 @@
 <!doctype html>
 <html lang="en-us">
 
-<head>
-    <title>About | Denise Mayele</title>
-  <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-</head>
+    <head>
+        <title>About | Denise Mayele</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://bootswatch.com/united/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </head>
 
-<body>
+    <body>
+        <nav class="navbar navbar-inverse" id="nav">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navBarTop">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                        <a class="navbar-brand" id="logo" href="index.html">Denise Mayele</a>
+                </div>
+                <div class="collapse navbar-collapse" id="navBarTop">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="active"><a href="index.html">About</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
 
-  <header id="masthead">
-    <div class="container">
-      <a href="index.html" id="logo">Denise Mayele</a>
-      <nav>
-        <a href="index.html">About</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="contact.html">Contact</a>
-      </nav>
+
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="page-header">
+                        <h1>About Me</h1>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-3">
+
+                            <img id="img-thumbnail" src="assets/images/cat.jpg" alt="Denise">
+                        </div>
+                        <!--  <div class="col-md-9"> -->
+                        <div id="aboutMe">
+                            <p class="bio">Hello visitor!
+                                My name is Denise, I'm 29 years old.
+                                I am a Frenchwoman living in San Francisco recently.
+                                I spend my days at the City College learning English, be it writing, pronunciation, listening or speaking. I'm doing my best.</p>
+
+                            <p class="bio">I started a coding bootcamp to change careers and start a new life, a new adventure.
+                                I love to eat and drink like any good french! <br>
+                                See you soon !!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid">
+            <div class="col-sm-4" id="boxContent">
+                <div class="panel panel-default">
+
+                    <div class="panel-heading">
+                        <h3 class="panel-title" id="connect">Connect With Me</h3>
+                    </div>
+
+                    <div class="panel-body">
+                        <a href="https://github.com/dinsm"><img src="assets/images/github-128.png" class="social" alt="GitHub" /></a>
+                        <a href="https://www.linkedin.com/in/denise-mayele-6220a7140/"><img src="assets/images/linkedin-128.png" class="social" alt="LinkedIn" /></a>
+                        <a href="http://stackoverflow.com/users/7880962/denise"><img src="assets/images/stackoverflow-128.png" class="social" alt="StackOverflow" /></a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-  </header>
 
-  <div id="main-container" class="container">
-    <section class="main-section">
-      <h1>About Me</h1>
 
-      <img src="assets/images/cat.jpg" class="auth-image" alt="Denise Mayele">
+        <div class="row">
+            <div class="col-md-12" id="footer">
+                <p>&copy Copyright 2017 Denise Mayele</p>
+            </div>
+        </div>
 
-      <p>Hello visitor!
-          My name is Denise, I'm 29 years old.
-          I am a Frenchwoman living in San Francisco recently.
-          I spend my days at the City College learning English, be it writing, pronunciation, listening or speaking. I'm doing my best.
-          <br>
-          I started a coding bootcamp to change careers and start a new life, a new adventure.
-          I love to eat and drink like any good french!
-          See you soon !!
-      </p>
-    </section>
 
-    <section class="sidebar">
-      <div id="connect">
-        <h2>Connect with Me</h2>
-
-        <a href="https://github.com/dinsm"><img src="assets/images/github-128.png" class="social" alt="GitHub" /></a>
-        <a href="https://www.linkedin.com/in/denise-mayele-6220a7140/"><img src="assets/images/linkedin-128.png" class="social" alt="LinkedIn" /></a>
-        <a href="http://stackoverflow.com/users/7880962/denise"><img src="assets/images/stackoverflow-128.png" class="social" alt="Stack Overflow" /></a>
-      </div>
-    </section>
-  </div>
-
-  <footer>
-    <div class="container">
-      Copyright &copy; 2017 Denise Mayele
-    </div>
-  </footer>
-</body>
-
+    </body>
 </html>
